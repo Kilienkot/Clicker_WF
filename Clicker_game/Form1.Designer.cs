@@ -87,6 +87,7 @@
             // 
             this.select_shop.BackColor = System.Drawing.Color.Transparent;
             this.select_shop.BackgroundImage = global::Clicker_game.Properties.Resources.shop2_0;
+            this.select_shop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.select_shop.Location = new System.Drawing.Point(63, 504);
             this.select_shop.Name = "select_shop";
             this.select_shop.Size = new System.Drawing.Size(250, 73);
@@ -97,7 +98,7 @@
             // Click_me
             // 
             this.Click_me.BackgroundImage = global::Clicker_game.Properties.Resources.coin2_0;
-            this.Click_me.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Click_me.Cursor = System.Windows.Forms.Cursors.Cross;
             this.Click_me.Location = new System.Drawing.Point(63, 157);
             this.Click_me.Name = "Click_me";
             this.Click_me.Size = new System.Drawing.Size(250, 250);
@@ -109,6 +110,7 @@
             // 
             this.power_box.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(28)))));
             this.power_box.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.power_box.Cursor = System.Windows.Forms.Cursors.No;
             this.power_box.Font = new System.Drawing.Font("OCR A Extended", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.power_box.ForeColor = System.Drawing.Color.White;
             this.power_box.Location = new System.Drawing.Point(63, 413);
@@ -122,6 +124,7 @@
             // money_box
             // 
             this.money_box.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(135)))), ((int)(((byte)(134)))));
+            this.money_box.Cursor = System.Windows.Forms.Cursors.No;
             this.money_box.Font = new System.Drawing.Font("OCR A Extended", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.money_box.Location = new System.Drawing.Point(63, 64);
             this.money_box.Name = "money_box";
@@ -151,6 +154,7 @@
             // 
             this.select_clicker.BackColor = System.Drawing.Color.Transparent;
             this.select_clicker.BackgroundImage = global::Clicker_game.Properties.Resources.back2_0;
+            this.select_clicker.Cursor = System.Windows.Forms.Cursors.Hand;
             this.select_clicker.Location = new System.Drawing.Point(63, 504);
             this.select_clicker.Name = "select_clicker";
             this.select_clicker.Size = new System.Drawing.Size(250, 74);
@@ -162,6 +166,7 @@
             // 
             this.shop_item3.BackColor = System.Drawing.Color.Transparent;
             this.shop_item3.BackgroundImage = global::Clicker_game.Properties.Resources.auto2_0;
+            this.shop_item3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.shop_item3.Location = new System.Drawing.Point(63, 364);
             this.shop_item3.Name = "shop_item3";
             this.shop_item3.Size = new System.Drawing.Size(250, 70);
@@ -173,6 +178,7 @@
             // 
             this.shop_item2.BackColor = System.Drawing.Color.Transparent;
             this.shop_item2.BackgroundImage = global::Clicker_game.Properties.Resources.power2_0;
+            this.shop_item2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.shop_item2.Location = new System.Drawing.Point(63, 279);
             this.shop_item2.Name = "shop_item2";
             this.shop_item2.Size = new System.Drawing.Size(250, 70);
@@ -184,6 +190,7 @@
             // 
             this.shop_item1.BackColor = System.Drawing.Color.Transparent;
             this.shop_item1.BackgroundImage = global::Clicker_game.Properties.Resources.mine2_0;
+            this.shop_item1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.shop_item1.Location = new System.Drawing.Point(63, 189);
             this.shop_item1.Name = "shop_item1";
             this.shop_item1.Size = new System.Drawing.Size(250, 70);
@@ -194,6 +201,7 @@
             // money_box_shop
             // 
             this.money_box_shop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(135)))), ((int)(((byte)(134)))));
+            this.money_box_shop.Cursor = System.Windows.Forms.Cursors.No;
             this.money_box_shop.Font = new System.Drawing.Font("OCR A Extended", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.money_box_shop.Location = new System.Drawing.Point(63, 64);
             this.money_box_shop.Name = "money_box_shop";
@@ -219,7 +227,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clicker";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Clicker_game_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.game.ResumeLayout(false);
             this.clicker.ResumeLayout(false);
             this.clicker.PerformLayout();
